@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ffc-website"
+version = "0.1.0"
+description = "My personal website"
+authors = ["fatih <fatihsaika@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "ffc_website"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# from url
+fatihserver = { git = "https://github.com/FFC12/FatihServer.git" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
