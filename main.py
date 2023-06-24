@@ -39,7 +39,7 @@ def main():
     templates.add_templates(path="templates/")
 
     # Create app
-    app = App(router=router, host="0.0.0.0", port=8000)
+    app = App(router=router, host="localhost", port=8000)
 
     # Run app
     app.run()
