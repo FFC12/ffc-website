@@ -10,7 +10,7 @@ packages = [{include = "ffc_website"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 # from url
-fatihserver = { git = "https://github.com/FFC12/FatihServer.git" }
+fatihserver = { git = "https://github.com/FFC12/FatihServer.git", branch = "master" }
 
 [build-system]
 requires = ["poetry-core"]

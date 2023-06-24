@@ -38,8 +38,8 @@ loguru = "^0.7.0"
 [package.source]
 type = "git"
 url = "https://github.com/FFC12/FatihServer.git"
-reference = "HEAD"
-resolved_reference = "60aca1297df89619b1cc674022ba76dbdc197078"
+reference = "master"
+resolved_reference = "3653bf933507817d69164bec1ce632bfd3817838"
 
 [[package]]
 name = "loguru"
@@ -76,4 +76,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "57ba030c6a23cead374967cd67832dc27a1b458122010ce57e8244e9c830be9f"
+content-hash = "2dc99bfe971f01061725a3a8a163271bf9fd49a0fbad016ca86458806dab3d5a"
