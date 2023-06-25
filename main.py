@@ -21,7 +21,7 @@ def index(request):
     return TemplateResponse(template=templates, name="index", payload={
         "name": "Fatih",
         "title": "FFC | Personal Website",
-        "cv_link": "https://google.com",
+        "cv_link": "https://drive.google.com/file/d/1vZ7j0sXR2pwbWnKnziEYb_-pgugNrLtg/view?usp=sharing",
         "github_link": "https://github.com/FFC12",
         "linkedin_link": "https://linkedin.com/in/furkanfatihcetindil",
         "mail_link": "fatihsaika@gmail.com"
